@@ -1,12 +1,15 @@
-<html>
+<html class="h-full flex w-full flex-col">
   <head>
     {{ partialCached "css.html" .}}
     <title>{{.Title}}</title>
   </head>
-  <body class="bg-gray-950" >
+  <body class="bg-gray-950 min-h-full flex flex-col" >
     {{ partial "header.html" . }}
-    {{ block "main" .}}
-      "The main content."
-    {{end}}
+    <div class="grow">
+      {{ block "main" .}}
+        "The main content."
+      {{end}}
+    </div>
+    {{partial "footer.html" .}}
   </body>
 </html>
