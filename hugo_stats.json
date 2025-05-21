@@ -1,0 +1,44 @@
+{
+  "htmlElements": {
+    "tags": [
+      "body",
+      "div",
+      "h1",
+      "head",
+      "html",
+      "img",
+      "meta",
+      "path",
+      "script",
+      "span",
+      "svg",
+      "title"
+    ],
+    "classes": [
+      "align-center",
+      "align-middle",
+      "bg-gray-950",
+      "bg-purple-950",
+      "content-center",
+      "flex",
+      "flex-col",
+      "flex-col-reverse",
+      "flex-cole",
+      "font-black",
+      "h-12",
+      "hi-svg-inline",
+      "inline",
+      "inline-block",
+      "inlinealign-middle",
+      "justify-between",
+      "justify-center",
+      "p-[22px]",
+      "place-content-center",
+      "text-center",
+      "text-white"
+    ],
+    "ids": [
+      "a-home-page"
+    ]
+  }
+}

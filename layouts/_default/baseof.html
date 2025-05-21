@@ -1,0 +1,12 @@
+<html>
+  <head>
+    {{ partialCached "css.html" .}}
+    <title>{{.Title}}</title>
+  </head>
+  <body class="bg-gray-950" >
+    {{ partial "header.html" . }}
+    {{ block "main" .}}
+      "The main content."
+    {{end}}
+  </body>
+</html>
